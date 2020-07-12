@@ -78,6 +78,10 @@ async def loop():
     if now == '03:41':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳')
+        
+    if now == '04:30':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
 
     if now == '08:47':
         channel = client.get_channel(CHANNEL_ID)
@@ -103,6 +107,10 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:alittle:723501802774855720>') 
         
+    if now == '11:17':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
+
     if now == '12:28':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('=dance') 
@@ -130,7 +138,11 @@ async def loop():
     if now == '14:16':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳')
-          
+        
+    if now == '20:30':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
+   
     if now == '21:31':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:gm:699792760651120671>🥳')
