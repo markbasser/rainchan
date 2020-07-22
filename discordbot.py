@@ -161,13 +161,13 @@ async def on_message(message):
         # チャンネルへメッセージを送信
         await message.channel.send(f"<:hai_kao:699072592987947117> <:hai_kao:699072592987947117> <:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
     
-    if message.content == "<:ty:699857337980026930><:hai_kao:699072592987947117>":
+    if message.content == "<:ty:721639183432548394> <:hai_kao:699072592987947117>":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"<:ty:699857337980026930><:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"<:ty:721639183432548394> <:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
         
-    if message.content == "<:nerd_girl:733937654034595880> <:nerd_girl:733937654034595880> <:nerd_girl:733937654034595880> ":
+    if message.content == "<:nerd_girl:733937654034595880> <:nerd_girl:733937654034595880> <:nerd_girl:733937654034595880>":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"<:nerd_girl:733937654034595880> <:yeah1:721319707482914877> <:nerd_girl:733937654034595880> ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"<:nerd_girl:733937654034595880> <:yeah1:721319707482914877> <:nerd_girl:733937654034595880>")  # f文字列（フォーマット済み文字列リテラル）
     
     
     elif message.content == "r/link":
