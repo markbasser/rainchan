@@ -37,7 +37,7 @@ async def loop():
     
     if now == '01:28':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('🥳🎶')     
+        await channel.send('🥳 <:hello1:713004241131667528> <:gal_p:733138011109326940> ')     
 
     if now == '01:29':
         channel = client.get_channel(CHANNEL_ID)
@@ -61,7 +61,7 @@ async def loop():
     
     if now == '03:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:good01:699581068285706301>🎉 ') 
+        await channel.send('<:gal_p:733138011109326940> 🎉 ') 
     
     if now == '03:34':
         channel = client.get_channel(CHANNEL_ID)
@@ -77,11 +77,11 @@ async def loop():
     
     if now == '03:41':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('🥳')
+        await channel.send('🥳 <:hello1:713004241131667528> ')
         
     if now == '04:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚 \n Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
+        await channel.send('JPXコミュニティ<:jpxdis1:710400520434745425> では、挨拶とお礼はしっかりとしましょうね💚 \n <:gal_p:733138011109326940> Let,s say Hello and Thank you in the JPX <:jpxdis1:710400520434745425> community 💛 ') 
 
     if now == '08:47':
         channel = client.get_channel(CHANNEL_ID)
@@ -97,7 +97,7 @@ async def loop():
     
     if now == '10:30':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('🥳') 
+        await channel.send('🥳 <:hello1:713004241131667528> ') 
      
     if now == '10:31':
         channel = client.get_channel(CHANNEL_ID)
@@ -137,7 +137,7 @@ async def loop():
     
     if now == '14:16':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('🥳')
+        await channel.send('🥳 <:hello1:713004241131667528> ')
         
     if now == '20:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -164,6 +164,11 @@ async def on_message(message):
     if message.content == "<:ty:699857337980026930><:hai_kao:699072592987947117>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"<:ty:699857337980026930><:hai_kao:699072592987947117>")  # f文字列（フォーマット済み文字列リテラル）
+        
+    if message.content == "<:nerd_girl:733937654034595880> <:nerd_girl:733937654034595880> <:nerd_girl:733937654034595880> ":
+        # チャンネルへメッセージを送信
+        await message.channel.send(f"<:nerd_girl:733937654034595880> <:yeah1:721319707482914877> <:nerd_girl:733937654034595880> ")  # f文字列（フォーマット済み文字列リテラル）
+    
     
     elif message.content == "r/link":
         # リアクションアイコンを付けたい
