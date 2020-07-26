@@ -121,7 +121,7 @@ async def loop():
     
     if now == '12:33':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('/rain BEN 444 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
+        await channel.send('/rain BEN 3 AttenuationDistributed  <:BENKEICOIN04:698471407650209832><:benkeicoinsl:698471387064696833>Pls receive→/catch')  
     
     if now == '12:35':
         channel = client.get_channel(CHANNEL_ID)
